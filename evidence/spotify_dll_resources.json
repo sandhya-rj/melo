@@ -1,0 +1,13 @@
+{
+  "evidence_id": "ev_b5cf737e2991ff169b68cfe4659bf1ba73d37c94f3b5b2cf089991e6da4a0a78",
+  "subject": {
+    "name": "Spotify.dll",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.dll",
+    "format": "pe32-plus"
+  },
+  "operation": "inspect_pe_resources",
+  "examined_entries": 99,
+  "resources": 47,
+  "embedded_pngs": 37,
+  "icon_sizes": ["16x16", "32x32", "48x48"]
+}

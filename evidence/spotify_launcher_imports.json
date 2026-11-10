@@ -1,0 +1,21 @@
+{
+  "evidence_id": "ev_fda316a8ac8bd412e975ac3eac7a83d81b98a029aa94b95fef30cef4d968daa4",
+  "subject": {
+    "name": "SpotifyLauncher.exe",
+    "sha256": "e67ef132070c63f5c56e7b7d0d5d72e86e208576432bfc6fc69fd1821ef06513",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\SpotifyLauncher.exe",
+    "bytes": 10527104
+  },
+  "provider": "rea-pe-imports",
+  "operation": "inspect_pe_imports",
+  "examined_dlls": 16,
+  "imports_count": 353,
+  "key_dlls": [
+    "WINHTTP.dll",
+    "DNSAPI.dll",
+    "USER32.dll",
+    "ADVAPI32.dll",
+    "KERNEL32.dll",
+    "api-ms-win-core-winrt-l1-1-0.dll"
+  ]
+}

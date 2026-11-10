@@ -1,0 +1,13 @@
+{
+  "evidence_id": "ev_7a4477aa0535c7c4d3643a7759b31288ea3f2eb1aad45f4b3ceff304e54efbad",
+  "subject": {
+    "name": "Spotify.dll",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.dll",
+    "format": "pe",
+    "architecture": "x86_64"
+  },
+  "operation": "inspect_pe_certificates",
+  "signer": "Spotify AB",
+  "issuer": "DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+  "verified": true
+}

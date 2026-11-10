@@ -1,0 +1,19 @@
+{
+  "evidence_id": "ev_a81a61ad96417a637b3afa18d0f2657e34462b83c3cb7de1ca3385a39a07e292",
+  "subject": {
+    "name": "Spotify.dll",
+    "sha256": "769ac5a1a282f470b663a1c3933774f56d954f8f0dbfd156f9d799a173c79406",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.dll",
+    "format": "pe",
+    "bytes": 44104576
+  },
+  "provider": "rea-native-exports",
+  "operation": "inspect_native_exports",
+  "exports": [
+    {
+      "name": "RunWinMain",
+      "ordinal": 1,
+      "address": "0x18005bdf8"
+    }
+  ]
+}

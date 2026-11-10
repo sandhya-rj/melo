@@ -1,0 +1,25 @@
+{
+  "evidence_id": "ev_f563c7517eeb97aee96418d332dfbf3af9b901cc9b60a872cbfa4c162860f338",
+  "subject": {
+    "name": "libcef.dll",
+    "sha256": "c98288ea4273ded09220928464563245d50a17742fffc7e9943a342f9ee92d98",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\libcef.dll",
+    "bytes": 285389184
+  },
+  "provider": "rea-native-exports",
+  "operation": "inspect_native_exports",
+  "total_exports": 248,
+  "core_cef_apis": [
+    "cef_initialize",
+    "cef_execute_process",
+    "cef_shutdown",
+    "cef_run_message_loop",
+    "cef_quit_message_loop",
+    "cef_browser_host_create_browser",
+    "cef_browser_view_create",
+    "cef_window_create_top_level",
+    "cef_v8_context_get_current_context",
+    "cef_zip_reader_create",
+    "sqlite3_dbdata_init"
+  ]
+}

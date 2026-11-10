@@ -1,0 +1,2 @@
+"use strict";(("u">typeof self?self:global).rspackChunk||=[]).push([[5369],{28419(e,l,t){t.r(l),t.d(l,{default:()=>s});var u=t(62515),f=t(65275);let s=u.memo(function(){let{createPlaylist:e}=(0,f.A)();return(0,u.useEffect)(()=>{e()},[e]),null})}}]);
+//# sourceMappingURL=xpui-routes-create-playlist.js.map

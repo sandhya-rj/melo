@@ -1,0 +1,17 @@
+{
+  "evidence_id": "ev_9ae6c62f911752edb4536712d974f0f98b02c28bed1cc90e23f8067c637c0033",
+  "subject": {
+    "name": "Spotify.exe",
+    "sha256": "d3871b833e6a54382ca500b316d14b83b22b8ee16b594e8414e3f2c2dfc1a541",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.exe"
+  },
+  "provider": "rea-pe-load-config",
+  "operation": "inspect_pe_load_config",
+  "tls_callbacks_count": 6,
+  "guard_flags": [
+    "IMAGE_GUARD_CF_INSTRUMENTED",
+    "IMAGE_GUARD_CF_FUNCTION_TABLE_PRESENT",
+    "IMAGE_GUARD_CF_LONGJUMP_TABLE_PRESENT"
+  ],
+  "guard_cf_function_count": 2367
+}

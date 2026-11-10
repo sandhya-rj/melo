@@ -1,0 +1,28 @@
+{
+  "evidence_id": "ev_2b0304c8582794427b60479cde6adfe6bb8e2d8a24d7e8f6a186e045f7363b26",
+  "subject": {
+    "name": "Spotify.dll",
+    "sha256": "769ac5a1a282f470b663a1c3933774f56d954f8f0dbfd156f9d799a173c79406",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.dll",
+    "bytes": 44104576
+  },
+  "provider": "rea-pe-imports",
+  "operation": "inspect_pe_imports",
+  "key_delay_imports": [
+    "libcef.dll",
+    "uet_dll_wrapper.dll",
+    "SHELL32.dll",
+    "ole32.dll",
+    "WS2_32.dll",
+    "ADVAPI32.dll",
+    "CRYPT32.dll",
+    "imagehlp.dll",
+    "WINTRUST.dll",
+    "USER32.dll",
+    "WTSAPI32.dll",
+    "COMCTL32.dll",
+    "GDI32.dll",
+    "UxTheme.dll",
+    "gdiplus.dll"
+  ]
+}

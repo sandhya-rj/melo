@@ -1,0 +1,2 @@
+"use strict";(("u">typeof self?self:global).rspackChunk||=[]).push([[5314],{83938(e,r,s){s.r(r),s.d(r,{default:()=>f});var t=s(23955),l=s(62515),u=s(29786),i=s(80304),o=s(80715);let f=l.memo(()=>{let e=(0,o.o)(e=>e?.item,(e,r)=>e?.uri===r?.uri);return e?(0,t.jsx)(u.A,{format:"fullscreen",item:e}):(0,t.jsx)(i.i,{version:"error"})})}}]);
+//# sourceMappingURL=xpui-routes-lyrics.js.map

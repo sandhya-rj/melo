@@ -1,0 +1,44 @@
+{
+  "name": "melo",
+  "version": "1.0.0",
+  "description": "MELO - High-Fidelity Windows Desktop Music Application Reconstructed with REA",
+  "author": "MELO Team",
+  "main": "dist-electron/main/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit",
+    "preview": "vite preview",
+    "test": "node scripts/run-all-tests.mjs",
+    "test:unit": "node --experimental-strip-types --test \"tests/unit/*.test.ts\"",
+    "test:integration": "node --experimental-strip-types --test \"tests/integration/*.test.ts\"",
+    "test:e2e": "node --experimental-strip-types --test \"tests/e2e/*.spec.ts\"",
+    "test:vitest": "vitest run",
+    "test:playwright": "playwright test",
+    "package": "electron-builder --win nsis --x64"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@types/sql.js": "^1.4.9",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "electron": "^31.4.0",
+    "playwright": "^1.45.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.8",
+    "vite-plugin-electron": "^0.28.8",
+    "vite-plugin-electron-renderer": "^0.14.5",
+    "vitest": "^2.0.0"
+  },
+  "dependencies": {
+    "lucide-react": "^0.451.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sql.js": "^1.12.0"
+  }
+}

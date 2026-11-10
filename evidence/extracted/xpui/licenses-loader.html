@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'unsafe-inline'; style-src 'unsafe-inline'"
+    />
+    <title>Third-party software licenses</title>
+    <style>
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+          Arial, sans-serif;
+        margin: 0;
+        padding: 16px;
+        color: #fff;
+        background: #121212;
+      }
+      a {
+        color: #1db954;
+      }
+      hr {
+        border: none;
+        border-top: 1px solid #333;
+        margin: 24px 0;
+      }
+      .toc {
+        columns: 2;
+        -webkit-columns: 2;
+      }
+      .loading {
+        text-align: center;
+        padding: 48px 0;
+        color: #b3b3b3;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="loading" class="loading">Loading licenses...</div>
+    <div id="native-licenses" hidden></div>
+    <div id="ui-licenses" hidden></div>
+    <script>
+      (async function () {
+        var nativeEl = document.getElementById('native-licenses');
+        var uiEl = document.getElementById('ui-licenses');
+        var loadingEl = document.getElementById('loading');
+
+        var results = await Promise.allSettled([
+          fetch('/native-licenses.html').then(function (r) {
+            return r.ok ? r.text() : null;
+          }),
+          fetch('/ui-licenses.html').then(function (r) {
+            return r.ok ? r.text() : null;
+          }),
+        ]);
+
+        var nativeHtml =
+          results[0].status === 'fulfilled' ? results[0].value : null;
+        var uiHtml =
+          results[1].status === 'fulfilled' ? results[1].value : null;
+
+        loadingEl.hidden = true;
+
+        if (nativeHtml) {
+          var parser = new DOMParser();
+          var doc = parser.parseFromString(nativeHtml, 'text/html');
+
+          var styles = doc.querySelectorAll('style');
+          for (var i = 0; i < styles.length; i++) {
+            document.head.appendChild(styles[i].cloneNode(true));
+          }
+
+          nativeEl.innerHTML = doc.body ? doc.body.innerHTML : nativeHtml;
+          nativeEl.hidden = false;
+        }
+
+        if (uiHtml) {
+          uiEl.innerHTML = uiHtml;
+          uiEl.hidden = false;
+        }
+
+        if (!nativeHtml && !uiHtml) {
+          nativeEl.innerHTML =
+            '<h1>No license information available for this build.</h1>';
+          nativeEl.hidden = false;
+        }
+      })();
+    </script>
+  </body>
+</html>

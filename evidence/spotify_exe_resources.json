@@ -1,0 +1,23 @@
+{
+  "evidence_id": "ev_61e6a21d2419b00e9f2fe89b7b2bfaf6d3bcf58c9ce89b6459ee799811ebbbea",
+  "subject": {
+    "name": "Spotify.exe",
+    "sha256": "d3871b833e6a54382ca500b316d14b83b22b8ee16b594e8414e3f2c2dfc1a541",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.exe"
+  },
+  "provider": "rea-pe-resources",
+  "operation": "inspect_pe_resources",
+  "total_resources": 15,
+  "named_resource": "CEF_REVOCATION_LIST",
+  "icon_groups": [
+    {
+      "resource_id": 32512,
+      "icon_sizes": [
+        "16x16 (8-bit, 32-bit)",
+        "32x32 (8-bit, 32-bit)",
+        "48x48 (8-bit, 32-bit)",
+        "256x256 (32-bit PNG/ICO)"
+      ]
+    }
+  ]
+}

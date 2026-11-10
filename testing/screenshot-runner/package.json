@@ -1,0 +1,5 @@
+{
+  "name": "screenshot-runner",
+  "version": "1.0.0",
+  "main": "generate-all-screenshots.cjs"
+}

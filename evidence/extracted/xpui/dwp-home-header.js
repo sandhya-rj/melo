@@ -1,0 +1,2 @@
+"use strict";(("u">typeof self?self:global).rspackChunk||=[]).push([[8319],{3484(e,t,l){l.d(t,{HomeHeader:()=>f});var r=l(23955),n=l(62515),s=l(28625),a=l.n(s),o=l(23300),u=l(84988),c=l(77448);let f=(0,n.memo)(function(){let e=(0,c.A)(o.l0o),t=!(0,u.n)();return(0,r.jsx)("div",{className:a()("kMaYBahSBLOnErF7DLR2",{ERB9Yr1OyWiEbIozlRtA:t}),style:{backgroundColor:e}})})},77448(e,t,l){var r=l(41094);function n(e){let{color:t}=(0,r.Xc)();return t||e}l.d(t,{A:()=>n})}}]);
+//# sourceMappingURL=dwp-home-header.js.map

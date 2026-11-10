@@ -1,0 +1,17 @@
+{
+  "evidence_id": "ev_6cc57515166290f79b8812fb94f5a3a126e70464dba492fd81c13872ed8f2a8b",
+  "subject": {
+    "name": "SpotifyLauncher.exe",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\SpotifyLauncher.exe",
+    "format": "pe32-plus",
+    "architecture": "amd64"
+  },
+  "operation": "inspect_pe_load_config",
+  "examined_callbacks": 3,
+  "guard_flags": [
+    "IMAGE_GUARD_CF_INSTRUMENTED"
+  ],
+  "inferences": [
+    "cfg_instrumented"
+  ]
+}

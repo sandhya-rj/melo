@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Production build artifacts
+dist/
+dist-electron/
+releases/win-unpacked/
+releases/*.tmp
+scripts/app-payload.zip
+
+# Internal agent logs
+.agents/
+*.log
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user

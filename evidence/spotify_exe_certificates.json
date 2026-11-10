@@ -1,0 +1,17 @@
+{
+  "evidence_id": "ev_e48de913107b77328cc352de8f04ef21b168037812671996e8d7eea8c3503c64",
+  "subject": {
+    "name": "Spotify.exe",
+    "sha256": "d3871b833e6a54382ca500b316d14b83b22b8ee16b594e8414e3f2c2dfc1a541",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.exe"
+  },
+  "provider": "rea-pe-certificates",
+  "operation": "inspect_pe_certificates",
+  "certificates": [
+    {
+      "signer": "DigiCert Trusted Root G4 -> DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1",
+      "subject": "Spotify AB, Stockholm, SE, Org ID 556703-7485",
+      "signature_algorithm": "sha256WithRSAEncryption"
+    }
+  ]
+}

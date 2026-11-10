@@ -1,0 +1,2 @@
+"use strict";(("u">typeof self?self:global).rspackChunk||=[]).push([[9109],{8166(s,e,l){l.r(e);var u=l(23955);l.d(e,{},{default:()=>(0,u.jsx)("h1",{children:"Success!"})})}}]);
+//# sourceMappingURL=xpui-routes-health-check.js.map

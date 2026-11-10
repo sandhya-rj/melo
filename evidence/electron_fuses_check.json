@@ -1,0 +1,17 @@
+{
+  "evidence_id": "ev_c0277bab4d6b75c43ba6746b433138a61c4f1638fbaa9e9d4377f02fd99db55c",
+  "subject": {
+    "name": "Spotify.exe",
+    "sha256": "d3871b833e6a54382ca500b316d14b83b22b8ee16b594e8414e3f2c2dfc1a541",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\Spotify.exe",
+    "format": "pe",
+    "architecture": "x86_64"
+  },
+  "provider": "electron-fuses",
+  "operation": "inspect_electron_fuses",
+  "observation": {
+    "sentinel_count": 0,
+    "sentinels": [],
+    "conclusion": "No Electron fuse sentinel detected; Spotify.exe is NOT an Electron binary."
+  }
+}

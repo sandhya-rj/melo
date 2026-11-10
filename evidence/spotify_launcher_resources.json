@@ -1,0 +1,12 @@
+{
+  "evidence_id": "ev_fc816d2a2d1ddfd32f604ff0430a7f79234c3d1f79e6031904499d9af34942bc",
+  "subject": {
+    "name": "SpotifyLauncher.exe",
+    "local_path": "C:\\Users\\suzhi\\AppData\\Roaming\\Spotify\\SpotifyLauncher.exe",
+    "format": "pe32-plus"
+  },
+  "operation": "inspect_pe_resources",
+  "examined_entries": 24,
+  "resources": 10,
+  "icon_sizes": ["16x16", "32x32", "48x48"]
+}
